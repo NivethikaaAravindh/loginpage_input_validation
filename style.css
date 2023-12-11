@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("./food-delivery-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
+    font-family: 'poppins',sans-serif;
+}
+#form
+{
+    width: 25%;
+    height: 450px;
+    margin: 15vh auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    justify-content: center;
+}
+#form h1
+{
+    text-align: center;
+    color: #3A4D39;
+    font-size: 30px;
+
+}
+#form button
+{
+    background-color: rgb(255, 246, 246);
+    border: 1px solid black;
+    color: black;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.input_field
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input_field input
+{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(248, 241, 241);
+    color:rgb(0, 0, 0)
+}
+.input_field input:focus
+{
+    outline: 0;
+}
+.input_field input:hover
+{
+    border: 2px solid #739072 ;
+}
+.input_field .error
+{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.input_field.success input
+{
+    border-color: green;
+}
+.input_field.error input
+{
+    border-color: red ;
+}
